@@ -1,0 +1,5 @@
+<rows xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <row>
+    <time_without_time_zone_column>23:59:59+11:00</time_without_time_zone_column>
+  </row>
+</rows>

@@ -1,0 +1,5 @@
+<rows xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <row>
+    <single_primary_key_column xsi:nil="true"/>
+  </row>
+</rows>

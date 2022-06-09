@@ -1,0 +1,19 @@
+<rows xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <row>
+    <numeric_literal>12345678901234.1234567890</numeric_literal>
+    <smallint_literal>32767</smallint_literal>
+    <integer_literal>2147483647</integer_literal>
+    <bigint_literal>9223372036854775807</bigint_literal>
+    <real_literal>3.4028235E+38</real_literal>
+    <double_precision_literal>1.7976931348623157E+308</double_precision_literal>
+    <character_literal>1</character_literal>
+    <character_varying_literal>123456789012345678901234567890</character_varying_literal>
+    <character_large_object_literal>123456789012345678901234567890</character_large_object_literal>
+    <binary_large_object_literal>123456789012345678901234567890</binary_large_object_literal>
+    <boolean_literal>true</boolean_literal>
+    <date_literal>9999-12-31</date_literal>
+    <time_literal>23:59:59</time_literal>
+    <timestamp_literal>9999-12-31T23:59:59</timestamp_literal>
+    <interval_literal>P9999Y99999M999999DT9999999H999999999M999999999.9999999S</interval_literal>
+  </row>
+</rows>

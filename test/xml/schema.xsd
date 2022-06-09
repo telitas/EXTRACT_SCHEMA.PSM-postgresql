@@ -1,0 +1,87 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="schema">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="element" type="xs:RootAndKeyDefinitionSection"/>
+        <xs:element name="complexType" type="xs:TypeOfRowsDefinitionSection"/>
+        <xs:element name="complexType" type="xs:TypeOfRowDefinitionSection"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="RootAndKeyDefinitionSection">
+    <xs:sequence>
+      <xs:element name="key" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="selector">
+              <xs:complexType>
+                <xs:attribute name="xpath" fixed="row"/>
+                <xs:attribute name="field"/>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="field">
+            </xs:element>
+          </xs:sequence>
+          <xs:attribute name="name"/>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="unique" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="selector">
+              <xs:complexType>
+                <xs:attribute name="xpath" fixed="row"/>
+                <xs:attribute name="field"/>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="field">
+            </xs:element>
+          </xs:sequence>
+          <xs:attribute name="name"/>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="name" fixed="rows"/>
+    <xs:attribute name="type" fixed="Rows"/>
+  </xs:complexType>
+  <xs:complexType name="TypeOfRowsDefinitionSection">
+    <xs:sequence>
+      <xs:element name="sequence">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="element">
+              <xs:complexType>
+                <xs:attribute name="name" fixed="row"/>
+                <xs:attribute name="type" fixed="Row"/>
+                <xs:attribute name="minOccurs" fixed="0"/>
+                <xs:attribute name="maxOccurs" fixed="unbounded"/>
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="name" fixed="Rows"/>
+  </xs:complexType>
+  <xs:complexType name="TypeOfRowDefinitionSection">
+    <xs:sequence>
+      <xs:element name="sequence">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="element" maxOccurs="unbounded">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="simpleType" minOccurs="0"/>
+                </xs:sequence>
+                <xs:attribute name="name"/>
+                <xs:attribute name="nillable" use="optional"/>
+                <xs:attribute name="minOccurs" use="optional"/>
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="name" fixed="Row"/>
+  </xs:complexType>
+</xs:schema>

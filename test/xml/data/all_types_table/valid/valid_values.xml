@@ -1,0 +1,191 @@
+<rows xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <row>
+    <numeric_column>999999999.999999</numeric_column>
+    <decimal_column>999999999.999999</decimal_column>
+    <smallint_column>32767</smallint_column>
+    <integer_column>2147483647</integer_column>
+    <bigint_column>9223372036854775807</bigint_column>
+    <float_column>1.7976931348623157E+308</float_column>
+    <real_column>3.4028235E+38</real_column>
+    <double_precision_column>1.7976931348623157E+308</double_precision_column>
+    <character_column>ABCDEFGHIJ</character_column>
+    <character_varying_column>ABCDEFGHIJ</character_varying_column>
+    <character_large_object_column>ABCDEFGHIJ</character_large_object_column>
+    <binary_column>ffffffffffffffffffff</binary_column>
+    <binary_varying_column>ffffffffffffffffffff</binary_varying_column>
+    <binary_large_object_column>ffffffffffffffffffff</binary_large_object_column>
+    <boolean_column>true</boolean_column>
+    <date_column>9999-12-31</date_column>
+    <time_without_time_zone_column>23:59:59</time_without_time_zone_column>
+    <time_with_time_zone_column>23:59:59Z</time_with_time_zone_column>
+    <timestamp_without_time_zone_column>9999-12-31T23:59:59</timestamp_without_time_zone_column>
+    <timestamp_with_time_zone_column>9999-12-31T23:59:59Z</timestamp_with_time_zone_column>
+    <interval_column>P9999Y99999M999999DT9999999H999999999M999999999S</interval_column>
+    <not_supported_type_column/>
+  </row>
+  <row>
+    <numeric_column xsi:nil="true"/>
+    <decimal_column xsi:nil="true"/>
+    <smallint_column xsi:nil="true"/>
+    <integer_column xsi:nil="true"/>
+    <bigint_column xsi:nil="true"/>
+    <float_column xsi:nil="true"/>
+    <real_column xsi:nil="true"/>
+    <double_precision_column xsi:nil="true"/>
+    <character_column xsi:nil="true"/>
+    <character_varying_column xsi:nil="true"/>
+    <character_large_object_column xsi:nil="true"/>
+    <binary_column xsi:nil="true"/>
+    <binary_varying_column xsi:nil="true"/>
+    <binary_large_object_column xsi:nil="true"/>
+    <boolean_column xsi:nil="true"/>
+    <date_column xsi:nil="true"/>
+    <time_without_time_zone_column xsi:nil="true"/>
+    <time_with_time_zone_column xsi:nil="true"/>
+    <timestamp_without_time_zone_column xsi:nil="true"/>
+    <timestamp_with_time_zone_column xsi:nil="true"/>
+    <interval_column xsi:nil="true"/>
+    <not_supported_type_column xsi:nil="true"/>
+  </row>
+  <row/>
+  <row>
+    <numeric_column>0</numeric_column>
+    <decimal_column>0</decimal_column>
+  </row>
+  <row>
+    <numeric_column>-999999999.999999</numeric_column>
+    <decimal_column>-999999999.999999</decimal_column>
+  </row>
+  <row>
+    <numeric_column>999999999.999999</numeric_column>
+    <decimal_column>999999999.999999</decimal_column>
+  </row>
+  <row>
+    <numeric_column>9.9</numeric_column>
+    <decimal_column>9.9</decimal_column>
+  </row>
+  <row>
+    <smallint_column>0</smallint_column>
+    <integer_column>0</integer_column>
+    <bigint_column>0</bigint_column>
+  </row>
+  <row>
+    <smallint_column>-32768</smallint_column>
+    <integer_column>-2147483648</integer_column>
+    <bigint_column>-9223372036854775808</bigint_column>
+  </row>
+  <row>
+    <smallint_column>32767</smallint_column>
+    <integer_column>2147483647</integer_column>
+    <bigint_column>9223372036854775807</bigint_column>
+  </row>
+  <row>
+    <float_column>0</float_column>
+    <real_column>0</real_column>
+    <double_precision_column>0</double_precision_column>
+  </row>
+  <row>
+    <float_column>-1.7976931348623157E+308</float_column>
+    <real_column>-3.4028235E+38</real_column>
+    <double_precision_column>-1.7976931348623157E+308</double_precision_column>
+  </row>
+  <row>
+    <float_column>1.7976931348623157E+308</float_column>
+    <real_column>3.4028235E+38</real_column>
+    <double_precision_column>1.7976931348623157E+308</double_precision_column>
+  </row>
+  <row>
+    <float_column>4.9406564584124654E-324</float_column>
+    <real_column>1.401298E-45</real_column>
+    <double_precision_column>4.9406564584124654E-324</double_precision_column>
+  </row>
+  <row>
+    <character_column>abcdefghij</character_column>
+    <character_varying_column/>
+    <character_large_object_column/>
+  </row>
+  <row>
+    <character_column>ABCDEFGHIJ</character_column>
+    <character_varying_column>ABCDEFGHIJ</character_varying_column>
+    <character_large_object_column>ABCDEFGHIJ</character_large_object_column>
+  </row>
+  <row>
+    <binary_column>00000000000000000000</binary_column>
+    <binary_varying_column/>
+    <binary_large_object_column/>
+  </row>
+  <row>
+    <binary_column>ffffffffffffffffffff</binary_column>
+    <binary_varying_column>ffffffffffffffffffff</binary_varying_column>
+    <binary_large_object_column>ffffffffffffffffffff</binary_large_object_column>
+  </row>
+  <row>
+    <boolean_column>false</boolean_column>
+  </row>
+  <row>
+    <boolean_column>true</boolean_column>
+  </row>
+  <row>
+    <date_column>0001-01-01</date_column>
+    <time_without_time_zone_column>00:00:00</time_without_time_zone_column>
+    <timestamp_without_time_zone_column>0001-01-01T00:00:00</timestamp_without_time_zone_column>
+  </row>
+  <row>
+    <date_column>9999-12-31</date_column>
+    <time_without_time_zone_column>23:59:59</time_without_time_zone_column>
+    <timestamp_without_time_zone_column>9999-12-31T23:59:59</timestamp_without_time_zone_column>
+  </row>
+  <row>
+    <time_with_time_zone_column>00:00:00Z</time_with_time_zone_column>
+    <timestamp_with_time_zone_column>0001-01-01T00:00:00Z</timestamp_with_time_zone_column>
+  </row>
+  <row>
+    <time_with_time_zone_column>23:59:59Z</time_with_time_zone_column>
+    <timestamp_with_time_zone_column>9999-12-31T23:59:59Z</timestamp_with_time_zone_column>
+  </row>
+  <row>
+    <time_with_time_zone_column>00:00:00+11:00</time_with_time_zone_column>
+    <timestamp_with_time_zone_column>0001-01-01T00:00:00+11:00</timestamp_with_time_zone_column>
+  </row>
+  <row>
+    <time_with_time_zone_column>23:59:59+11:00</time_with_time_zone_column>
+    <timestamp_with_time_zone_column>9999-12-31T23:59:59+11:00</timestamp_with_time_zone_column>
+  </row>
+  <row>
+    <time_with_time_zone_column>00:00:00-11:00</time_with_time_zone_column>
+    <timestamp_with_time_zone_column>0001-01-01T00:00:00-11:00</timestamp_with_time_zone_column>
+  </row>
+  <row>
+    <time_with_time_zone_column>23:59:59-11:00</time_with_time_zone_column>
+    <timestamp_with_time_zone_column>9999-12-31T23:59:59-11:00</timestamp_with_time_zone_column>
+  </row>
+  <row>
+    <interval_column>-P9999Y99999M999999DT9999999H999999999M999999999S</interval_column>
+  </row>
+  <row>
+    <interval_column>P0Y0M0DT0H0M0S</interval_column>
+  </row>
+  <row>
+    <interval_column>P9999Y99999M999999DT9999999H999999999M999999999S</interval_column>
+  </row>
+  <row>
+    <not_supported_type_column>0</not_supported_type_column>
+  </row>
+  <row>
+    <not_supported_type_column>a</not_supported_type_column>
+  </row>
+  <row>
+    <not_supported_type_column>
+      <element/>
+      <element/>
+      <element/>
+    </not_supported_type_column>
+  </row>
+  <row>
+    <not_supported_type_column>
+      <field1/>
+      <field2/>
+      <field3/>
+    </not_supported_type_column>
+  </row>
+</rows>

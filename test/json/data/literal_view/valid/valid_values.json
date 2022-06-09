@@ -1,0 +1,19 @@
+[
+  {
+    "numeric_literal": "12345678901234.1234567890",
+    "smallint_literal": 32767,
+    "integer_literal": 2147483647,
+    "bigint_literal": 9223372036854776000,
+    "real_literal": 3.4028235e+38,
+    "double_precision_literal": 1.7976931348623157e+308,
+    "character_literal": "1",
+    "character_varying_literal": "123456789012345678901234567890",
+    "character_large_object_literal": "123456789012345678901234567890",
+    "binary_large_object_literal": "123456789012345678901234567890",
+    "boolean_literal": true,
+    "date_literal": "9999-12-31",
+    "time_literal": "23:59:59",
+    "timestamp_literal": "9999-12-31T23:59:59",
+    "interval_literal": "P9999Y99999M999999DT9999999H999999999M999999999S"
+  }
+]

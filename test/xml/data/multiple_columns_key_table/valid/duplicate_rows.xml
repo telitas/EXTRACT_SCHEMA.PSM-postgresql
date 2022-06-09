@@ -1,0 +1,10 @@
+<rows xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <row>
+    <multiple_primary_key_column_1>key1000001</multiple_primary_key_column_1>
+    <multiple_primary_key_column_2>key2000001</multiple_primary_key_column_2>
+  </row>
+  <row>
+    <multiple_primary_key_column_1>key1000001</multiple_primary_key_column_1>
+    <multiple_primary_key_column_2>key2000001</multiple_primary_key_column_2>
+  </row>
+</rows>

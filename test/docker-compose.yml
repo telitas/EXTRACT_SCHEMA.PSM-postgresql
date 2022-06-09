@@ -1,0 +1,18 @@
+version: '3.1'
+services:
+  db:
+    image: extract_schema.psm-postgresql
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        postgres_version: ${TAG:-latest}
+        pgtap_version: 1.2.0
+    environment:
+      POSTGRES_PASSWORD: mysecretpassword
+    ports:
+      - 5432:5432
+    volumes:
+      - type: bind
+        source: ./initdb
+        target: /docker-entrypoint-initdb.d

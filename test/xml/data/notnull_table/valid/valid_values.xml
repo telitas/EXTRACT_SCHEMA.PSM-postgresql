@@ -1,0 +1,9 @@
+<rows xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <row>
+    <character_varying_column/>
+    <character_large_object_column/>
+    <binary_varying_column/>
+    <binary_large_object_column/>
+    <not_supported_type_column/>
+  </row>
+</rows>

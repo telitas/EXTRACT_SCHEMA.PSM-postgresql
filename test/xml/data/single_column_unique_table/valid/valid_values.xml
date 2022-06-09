@@ -1,0 +1,12 @@
+<rows xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <row>
+    <single_unique_column xsi:nil="true"/>
+  </row>
+  <row>
+    <single_unique_column>unique0001</single_unique_column>
+  </row>
+  <row>
+    <single_unique_column/>
+  </row>
+  <row/>
+</rows>

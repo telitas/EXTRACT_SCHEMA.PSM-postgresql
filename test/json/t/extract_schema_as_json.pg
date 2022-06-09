@@ -1,0 +1,14 @@
+SET search_path TO pgschema;
+BEGIN;
+SELECT plan(7);
+
+SELECT ok(extract_table_as_json('sample_table') IS NOT NULL, 'A table exists in current schema');
+SELECT ok(extract_table_as_json('not_exists_table') IS NULL, 'A table does not exist in current schema');
+SELECT ok(extract_table_as_json('sample_table', 'pgschema') IS NOT NULL, 'A table exists in existing schema.');
+SELECT ok(extract_table_as_json('not_exists_table', 'pgschema') IS NULL, 'A table does not exist in existing schema.');
+SELECT ok(extract_table_as_json('sample_table', 'not_exists_schema') IS NULL, 'A schema does not exist.');
+SELECT ok(extract_table_as_json('sample_table', 'public') IS NULL, 'A schema is accessible, but a table is not.');
+SELECT ok(extract_table_as_json('sample_table', 'otherschema') IS NULL, 'A schema is not accessible');
+
+SELECT * FROM finish();
+ROLLBACK;

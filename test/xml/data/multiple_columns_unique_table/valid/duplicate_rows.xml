@@ -1,0 +1,11 @@
+<rows xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <row/>
+  <row>
+    <multiple_unique_column_1>unique1001</multiple_unique_column_1>
+    <multiple_unique_column_2>unique2001</multiple_unique_column_2>
+  </row>
+  <row>
+    <multiple_unique_column_1>unique1001</multiple_unique_column_1>
+    <multiple_unique_column_2>unique2001</multiple_unique_column_2>
+  </row>
+</rows>
