@@ -11,6 +11,9 @@
     <character_column>ABCDEFGHIJ</character_column>
     <character_varying_column>ABCDEFGHIJ</character_varying_column>
     <character_large_object_column>ABCDEFGHIJ</character_large_object_column>
+    <national_character_column>ABCDEFGHIJ</national_character_column>
+    <national_character_varying_column>ABCDEFGHIJ</national_character_varying_column>
+    <national_character_large_object_column>ABCDEFGHIJ</national_character_large_object_column>
     <binary_column>ffffffffffffffffffff</binary_column>
     <binary_varying_column>ffffffffffffffffffff</binary_varying_column>
     <binary_large_object_column>ffffffffffffffffffff</binary_large_object_column>
@@ -35,6 +38,9 @@
     <character_column xsi:nil="true"/>
     <character_varying_column xsi:nil="true"/>
     <character_large_object_column xsi:nil="true"/>
+    <national_character_column xsi:nil="true"/>
+    <national_character_varying_column xsi:nil="true"/>
+    <national_character_large_object_column xsi:nil="true"/>
     <binary_column xsi:nil="true"/>
     <binary_varying_column xsi:nil="true"/>
     <binary_large_object_column xsi:nil="true"/>
@@ -108,6 +114,16 @@
     <character_column>ABCDEFGHIJ</character_column>
     <character_varying_column>ABCDEFGHIJ</character_varying_column>
     <character_large_object_column>ABCDEFGHIJ</character_large_object_column>
+  </row>
+  <row>
+    <national_character_column>abcdefghij</national_character_column>
+    <national_character_varying_column/>
+    <national_character_large_object_column/>
+  </row>
+  <row>
+    <national_character_column>ABCDEFGHIJ</national_character_column>
+    <national_character_varying_column>ABCDEFGHIJ</national_character_varying_column>
+    <national_character_large_object_column>ABCDEFGHIJ</national_character_large_object_column>
   </row>
   <row>
     <binary_column>00000000000000000000</binary_column>
