@@ -1,6 +1,6 @@
-# EXTRACT_SCHEMA.PSM@postgresql
+# EXTRACT_SCHEMA.PSM-postgresql
 
-EXTRACT_SCHEMA.PSM@postgresql is implementation of [EXTRACT_SCHEMA.PSM](https://github.com/telitas/EXTRACT_SCHEMA.PSM) in PostgreSQL.
+EXTRACT_SCHEMA.PSM-postgresql is implementation of [EXTRACT_SCHEMA.PSM](https://github.com/telitas/EXTRACT_SCHEMA.PSM) in PostgreSQL.
 
 PostgreSQL 10 or later is supported.
 
